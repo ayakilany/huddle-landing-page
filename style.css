@@ -1,0 +1,89 @@
+body {
+  background: hsl(257, 40%, 49%) url(images/bg-mobile.svg) no-repeat;
+  background-size: 100vw;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color:whitesmoke;
+  font-size: 16px;  
+  margin: 30px 35px ;
+}
+header {
+  text-align: left;
+  margin-bottom: 60px;
+  margin-left: 10px;
+}
+header img {
+  width: 120px;
+}
+main img {
+width: 95%;
+  text-align: left;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+  color: white; 
+  font-weight: 400;
+}
+button {
+  color: hsl(257, 40%, 49%);
+  margin:10px auto;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 2px 4px 5px darkslateblue;
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  color: white;
+}
+.fa {
+  color: white;
+  text-decoration: none;
+  background: none;
+  padding: 5px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 5px;
+  margin-top: 50px;
+}
+.fa:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+@media only screen and (min-width:992px) {
+  body{
+    background-image: url(images/bg-desktop.svg);
+  background-size:contain;
+margin:60px;  
+}
+  main{
+    display: flex;
+    text-align: left;
+   margin-left:50px;
+  }
+  main div{
+  width: 50%; 
+  }
+  h1{
+font-weight: 600;
+font-size: 50px;
+  }
+  p{
+    font-size: 25 px;
+    margin-right:60px;
+
+  }
+  button{
+    width:180px
+  }
+  #sm{
+    text-align: right;
+  }
+}
